@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "769153544150",
+    "project_id": "chat-application-b8c2f",
+    "storage_bucket": "chat-application-b8c2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769153544150:android:9d67eb6680feea8a977e77",
+        "android_client_info": {
+          "package_name": "com.stoe.buzzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769153544150-vaibfvl4k735csh6dsj894d9vh891905.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stoe.buzzer",
+            "certificate_hash": "d35f6b5a1b2748b7a9b33bf731fb80904dd5fed3"
+          }
+        },
+        {
+          "client_id": "769153544150-6dg3cl24fer1e1r4sqtlfdlm6ib34ccp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS8izNQrbiK0RAqeh2wwpx4pAPtpLKAWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769153544150-6dg3cl24fer1e1r4sqtlfdlm6ib34ccp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

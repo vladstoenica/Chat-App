@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/_8sdp"
+    android:background="@color/primary_dark_grey"
+    >
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageProfileCard"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/background_image"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:riv_oval="true"/>
+
+    <View
+        android:id="@+id/viewSupporter"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        app:layout_constraintBottom_toBottomOf="@id/imageProfileCard"
+        app:layout_constraintStart_toEndOf="@id/imageProfileCard"
+        app:layout_constraintTop_toTopOf="@id/imageProfileCard"/>
+
+    <TextView
+        android:id="@+id/textNameCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/light_white_text"
+        android:textSize="@dimen/_14ssp"
+        android:fontFamily="@font/gilroy_bold"
+        app:layout_constraintBottom_toTopOf="@id/viewSupporter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageProfileCard"
+        />
+
+    <TextView
+        android:id="@+id/textRecentMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/message_receive"
+        android:fontFamily="@font/gilroy_medium"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageProfileCard"
+        app:layout_constraintTop_toBottomOf="@id/viewSupporter"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

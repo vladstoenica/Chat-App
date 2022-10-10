@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Buzzer</string>
+    <string name="hello">Hello!</string>
+    <string name="login">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_in_if_you_have_an_account">Sign in if you have an account</string>
+    <string name="online">Online</string>
+</resources>
