@@ -1,7 +1,6 @@
 package com.stoe.buzzer.activities;
 
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -154,7 +153,7 @@ public class ChatActivity extends BaseActivity {
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
-                    showToast("Notification sent");    //sa sterg asta ca e doar de debug
+//                    showToast("Notification sent");    //sa sterg asta ca e doar de debug
                 } else {
                     showToast("Error: " + response.code());
                 }
